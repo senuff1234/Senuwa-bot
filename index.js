@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `SENUWA-MD connected ✅\n\nPREFIX: ${prefix}`;
       await senuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/senuff1234/Senuwa-bot/blob/main/images/Senuwa-md.png?raw=true` },
+        image: { url: `https://github.com/senuff1234/Senuwa-bot/blob/main/images/Senuwa%20md.jpg?raw=true` },
         caption: up
       });
 
