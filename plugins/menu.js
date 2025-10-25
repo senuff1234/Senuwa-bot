@@ -8,7 +8,7 @@ cmd(
     filename: __filename,
   },
   async (
-    danuwa,
+    senuwa,
     mek,
     m,
     {
@@ -45,3 +45,4 @@ cmd(
     }
   }
 );
+
