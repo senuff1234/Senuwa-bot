@@ -11,7 +11,7 @@ cmd(
     filename: __filename,
   },
   async (
-    danuwa,
+    senuwa,
     mek,
     m,
     {
@@ -47,15 +47,16 @@ cmd(
       const url = data.url;
 
       let desc = `
-Song downloader
+*Song downloader*
 🎬 *Title:* ${data.title}
 ⏱️ *Duration:* ${data.timestamp}
 📅 *Uploaded:* ${data.ago}
 👀 *Views:* ${data.views.toLocaleString()}
 🔗 *Watch Here:* ${data.url}
+*Senuwa md whatsapp bot*
 `;
 
-      await danuwa.sendMessage(
+      await senuwa.sendMessage(
         from,
         { image: { url: data.thumbnail }, caption: desc },
         { quoted: mek }
@@ -74,7 +75,7 @@ Song downloader
         return reply("⏳ *Sorry, audio files longer than 30 minutes are not supported.*");
       }
 
-      await danuwa.sendMessage(
+      await senuwa.sendMessage(
         from,
         {
           audio: { url: songData.download.url },
@@ -83,7 +84,7 @@ Song downloader
         { quoted: mek }
       );
 
-      await danuwa.sendMessage(
+      await senuwa.sendMessage(
         from,
         {
           document: { url: songData.download.url },
