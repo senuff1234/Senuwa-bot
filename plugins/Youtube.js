@@ -48,7 +48,7 @@ ${formattedResults}
         from,
         {
           image: {
-            url: "https://github.com/senuff1234/Senuwa-bot/blob/main/images/YoutubeSearch.png?raw=true",
+            url: "https://github.com/senuff1234/Senuwa-bot/blob/main/images/YouTube%20Sarch.png?raw=true",
           },
           caption,
         },
