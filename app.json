@@ -2,7 +2,7 @@
   "name": "SENUWA-MD",
   "description": "Javascript WhatsApp bot made by Senuwa",
   "logo": "https://github.com/senuff1234/Senuwa-bot/blob/main/images/Senuwa-md.png?raw=true",
-  "keywords": ["DANUWA-MD"],
+  "keywords": ["SENUWA-MD"],
   "success_url": "/",
 
   "env": {
