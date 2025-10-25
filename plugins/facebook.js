@@ -58,16 +58,17 @@ cmd(
       const qualityText = hd ? "HD" : "SD";
 
       const desc = `
-Your fb video
+*Your Facebook video*
 👻 *Title*: ${title || "Unknown"}
 👻 *Quality*: ${qualityText}
+*Senuwa md whatsapp bot*
 `;
 
       await senuwa.sendMessage(
         from,
         {
           image: {
-            url: "https://github.com/senuff1234/Senuwa-bot/blob/main/images/FacebookDownloader.png?raw=true",
+            url: "https://github.com/senuff1234/Senuwa-bot/blob/main/images/Facebook%20Downloader.png?raw=true",
           },
           caption: desc,
         },
