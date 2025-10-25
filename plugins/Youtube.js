@@ -3,15 +3,15 @@ const yts = require("yt-search");
 
 cmd(
   {
-    pattern: "yts",
-    alias: ["yts", "youtubesearch"],
+    pattern: "youtube",
+    alias: ["yts", "youtubesearch","youtube"],
     react: "🔎",
     desc: "Search YouTube videos",
     category: "search",
     filename: __filename,
   },
   async (
-    danuwa,
+    senuwa,
     mek,
     m,
     {
@@ -44,7 +44,7 @@ Your youtube search results
 ${formattedResults}
    `;
 
-      await danuwa.sendMessage(
+      await senuwa.sendMessage(
         from,
         {
           image: {
