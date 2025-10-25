@@ -61,7 +61,7 @@ cmd(
 *Your Facebook video*
 👻 *Title*: ${title || "Unknown"}
 👻 *Quality*: ${qualityText}
-*Senuwa md whatsapp bot*
+*🍁 SENUWA- 〽D 🍁*
 `;
 
       await senuwa.sendMessage(
